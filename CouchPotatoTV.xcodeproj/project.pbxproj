@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E15253091BEE5110008643E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15253081BEE5110008643E1 /* AppDelegate.swift */; };
+		E152530B1BEE5110008643E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152530A1BEE5110008643E1 /* ViewController.swift */; };
+		E152530E1BEE5110008643E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E152530C1BEE5110008643E1 /* Main.storyboard */; };
+		E15253101BEE5110008643E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E152530F1BEE5110008643E1 /* Assets.xcassets */; };
+		E152531B1BEE5110008643E1 /* CouchPotatoTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E152531A1BEE5110008643E1 /* CouchPotatoTVTests.swift */; };
+		E15253261BEE5111008643E1 /* CouchPotatoTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15253251BEE5111008643E1 /* CouchPotatoTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E15253171BEE5110008643E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15252FD1BEE5110008643E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15253041BEE5110008643E1;
+			remoteInfo = CouchPotatoTV;
+		};
+		E15253221BEE5111008643E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E15252FD1BEE5110008643E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E15253041BEE5110008643E1;
+			remoteInfo = CouchPotatoTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E15253051BEE5110008643E1 /* CouchPotatoTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouchPotatoTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15253081BEE5110008643E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E152530A1BEE5110008643E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E152530D1BEE5110008643E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E152530F1BEE5110008643E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E15253111BEE5110008643E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15253161BEE5110008643E1 /* CouchPotatoTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchPotatoTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E152531A1BEE5110008643E1 /* CouchPotatoTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchPotatoTVTests.swift; sourceTree = "<group>"; };
+		E152531C1BEE5110008643E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E15253211BEE5111008643E1 /* CouchPotatoTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchPotatoTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E15253251BEE5111008643E1 /* CouchPotatoTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchPotatoTVUITests.swift; sourceTree = "<group>"; };
+		E15253271BEE5111008643E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E15253021BEE5110008643E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15253131BEE5110008643E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E152531E1BEE5111008643E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E15252FC1BEE5110008643E1 = {
+			isa = PBXGroup;
+			children = (
+				E15253071BEE5110008643E1 /* CouchPotatoTV */,
+				E15253191BEE5110008643E1 /* CouchPotatoTVTests */,
+				E15253241BEE5111008643E1 /* CouchPotatoTVUITests */,
+				E15253061BEE5110008643E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E15253061BEE5110008643E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E15253051BEE5110008643E1 /* CouchPotatoTV.app */,
+				E15253161BEE5110008643E1 /* CouchPotatoTVTests.xctest */,
+				E15253211BEE5111008643E1 /* CouchPotatoTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15253071BEE5110008643E1 /* CouchPotatoTV */ = {
+			isa = PBXGroup;
+			children = (
+				E15253081BEE5110008643E1 /* AppDelegate.swift */,
+				E152530A1BEE5110008643E1 /* ViewController.swift */,
+				E152530C1BEE5110008643E1 /* Main.storyboard */,
+				E152530F1BEE5110008643E1 /* Assets.xcassets */,
+				E15253111BEE5110008643E1 /* Info.plist */,
+			);
+			path = CouchPotatoTV;
+			sourceTree = "<group>";
+		};
+		E15253191BEE5110008643E1 /* CouchPotatoTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				E152531A1BEE5110008643E1 /* CouchPotatoTVTests.swift */,
+				E152531C1BEE5110008643E1 /* Info.plist */,
+			);
+			path = CouchPotatoTVTests;
+			sourceTree = "<group>";
+		};
+		E15253241BEE5111008643E1 /* CouchPotatoTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E15253251BEE5111008643E1 /* CouchPotatoTVUITests.swift */,
+				E15253271BEE5111008643E1 /* Info.plist */,
+			);
+			path = CouchPotatoTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E15253041BEE5110008643E1 /* CouchPotatoTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E152532A1BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTV" */;
+			buildPhases = (
+				E15253011BEE5110008643E1 /* Sources */,
+				E15253021BEE5110008643E1 /* Frameworks */,
+				E15253031BEE5110008643E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouchPotatoTV;
+			productName = CouchPotatoTV;
+			productReference = E15253051BEE5110008643E1 /* CouchPotatoTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E15253151BEE5110008643E1 /* CouchPotatoTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E152532D1BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTVTests" */;
+			buildPhases = (
+				E15253121BEE5110008643E1 /* Sources */,
+				E15253131BEE5110008643E1 /* Frameworks */,
+				E15253141BEE5110008643E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15253181BEE5110008643E1 /* PBXTargetDependency */,
+			);
+			name = CouchPotatoTVTests;
+			productName = CouchPotatoTVTests;
+			productReference = E15253161BEE5110008643E1 /* CouchPotatoTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E15253201BEE5111008643E1 /* CouchPotatoTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15253301BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTVUITests" */;
+			buildPhases = (
+				E152531D1BEE5111008643E1 /* Sources */,
+				E152531E1BEE5111008643E1 /* Frameworks */,
+				E152531F1BEE5111008643E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E15253231BEE5111008643E1 /* PBXTargetDependency */,
+			);
+			name = CouchPotatoTVUITests;
+			productName = CouchPotatoTVUITests;
+			productReference = E15253211BEE5111008643E1 /* CouchPotatoTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E15252FD1BEE5110008643E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Robb Lewis";
+				TargetAttributes = {
+					E15253041BEE5110008643E1 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					E15253151BEE5110008643E1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E15253041BEE5110008643E1;
+					};
+					E15253201BEE5111008643E1 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E15253041BEE5110008643E1;
+					};
+				};
+			};
+			buildConfigurationList = E15253001BEE5110008643E1 /* Build configuration list for PBXProject "CouchPotatoTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E15252FC1BEE5110008643E1;
+			productRefGroup = E15253061BEE5110008643E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E15253041BEE5110008643E1 /* CouchPotatoTV */,
+				E15253151BEE5110008643E1 /* CouchPotatoTVTests */,
+				E15253201BEE5111008643E1 /* CouchPotatoTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E15253031BEE5110008643E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15253101BEE5110008643E1 /* Assets.xcassets in Resources */,
+				E152530E1BEE5110008643E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15253141BEE5110008643E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E152531F1BEE5111008643E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E15253011BEE5110008643E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E152530B1BEE5110008643E1 /* ViewController.swift in Sources */,
+				E15253091BEE5110008643E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E15253121BEE5110008643E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E152531B1BEE5110008643E1 /* CouchPotatoTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E152531D1BEE5111008643E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15253261BEE5111008643E1 /* CouchPotatoTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E15253181BEE5110008643E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15253041BEE5110008643E1 /* CouchPotatoTV */;
+			targetProxy = E15253171BEE5110008643E1 /* PBXContainerItemProxy */;
+		};
+		E15253231BEE5111008643E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E15253041BEE5110008643E1 /* CouchPotatoTV */;
+			targetProxy = E15253221BEE5111008643E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E152530C1BEE5110008643E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E152530D1BEE5110008643E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E15253281BEE5111008643E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		E15253291BEE5111008643E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E152532B1BEE5111008643E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CouchPotatoTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E152532C1BEE5111008643E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CouchPotatoTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E152532E1BEE5111008643E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CouchPotatoTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouchPotatoTV.app/CouchPotatoTV";
+			};
+			name = Debug;
+		};
+		E152532F1BEE5111008643E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CouchPotatoTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CouchPotatoTV.app/CouchPotatoTV";
+			};
+			name = Release;
+		};
+		E15253311BEE5111008643E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CouchPotatoTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CouchPotatoTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E15253321BEE5111008643E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CouchPotatoTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rmlewisuk.CouchPotatoTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CouchPotatoTV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E15253001BEE5110008643E1 /* Build configuration list for PBXProject "CouchPotatoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15253281BEE5111008643E1 /* Debug */,
+				E15253291BEE5111008643E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E152532A1BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E152532B1BEE5111008643E1 /* Debug */,
+				E152532C1BEE5111008643E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E152532D1BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E152532E1BEE5111008643E1 /* Debug */,
+				E152532F1BEE5111008643E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E15253301BEE5111008643E1 /* Build configuration list for PBXNativeTarget "CouchPotatoTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E15253311BEE5111008643E1 /* Debug */,
+				E15253321BEE5111008643E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E15252FD1BEE5110008643E1 /* Project object */;
+}
