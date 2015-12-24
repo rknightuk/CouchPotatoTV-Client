@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDe
     
     var appController: TVApplicationController?
     
-    static let TVBaseURL = "http://localhost:9001/"
+    static let TVBaseURL = "http://localhost:5050/"
     
     static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
 
